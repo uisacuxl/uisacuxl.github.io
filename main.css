@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link:hover {
+  color: #555555;
+}
+
+#content {
+  flex-grow: 1;
+}
+
+#header, #footer {
+  left: 0;
+  right: 0;
+  padding: 1vw 1vh 1vw 1vh;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+}
+
+#footer {
+  border-top-style: solid;
+  border-top-color: grey;
+  background-color: white;
+}
